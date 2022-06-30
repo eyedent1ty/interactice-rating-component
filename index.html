@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Rating Component</title>
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="dist/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <article class="card card-1">
+        <section class="icon-container mb-20">
+          <img src="images/icon-star.svg" />
+        </section>
+        <p class="large white mb-20">How did we do?</p>
+        <p class="light-gray mb-30">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <section class="buttons">
+          <button type="button">1</button>
+          <button type="button">2</button>
+          <button type="button">3</button>
+          <button type="button">4</button>
+          <button type="button">5</button>
+        </section>
+        <button class="submit-btn white disable">Submit</button>
+      </article>
+      <article class="card card-2 hide center">
+        <img class="mb-20" src="images/illustration-thank-you.svg" />
+        <p class="result"></p>
+        <p class="large white mb-30">Thank You!</p>
+        <p class="light-gray">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
+        </p>
+      </article>
+    </main>
+    <script src="app/js/app.js"></script>
+  </body>
+</html>
