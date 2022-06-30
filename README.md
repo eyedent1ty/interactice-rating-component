@@ -11,8 +11,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Source code]https://github.com/eyedent1ty/interactice-rating-component)
-- Live Site URL: [See live](https://your-live-site-url.com)
+- Solution URL: [Source code](https://github.com/eyedent1ty/interactice-rating-component)
+- Live Site URL: [See live](https://eyedent1ty-interactive-rating-component.netlify.app/)
 
 ### Built with
 
